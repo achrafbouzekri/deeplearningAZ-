@@ -1,9 +1,26 @@
-This repo contains personal projects implementing different Deep Learning algorithms with `tensorflow`, `keras`, and `PyTorch`.
+Ce repo contient les projets implémentés pendant le cours [Deep Learning de A à Z](https://www.udemy.com/le-deep-learning-de-a-a-z/?couponCode=WEBSITE) à l'aide de `tensorflow`, `keras`, et `PyTorch`.
 
-## ANN
+## Installation des modules
 
-The first project contains an Artificial Neural Network.
+Après avoir installé [Anaconda](https://anaconda.org/), suivre les instructions suivantes.
 
-This is a simple neural network predicting the churn probability of existing customers. 
+**Important** : Après avoir installé les modules, il faut toujours se remettre dans l'environnement créé (qu'on a appelé `deeplearningaz`) à l'aide de la commande `activate deeplearningaz` avant de lancer Spyder. Sans quoi Spyder se lancera l'environnement par défaut.
 
-After processing the data and building the ANN, the model predicts churn in the 6 months with an accuracy of 84%.
+### Sur MacOS
+
+### Sur Windows
+
+### Sur Ubuntu
+
+```
+conda create --name deeplearningaz python=3.6 anaconda
+activate deeplearningaz
+conda install theano
+conda install tensorflow
+conda install keras
+conda update --all
+```
+
+## Partie 1 - ANN
+
+Le premier projet utilise un réseau de neurones artificiel utilisé pour prédire la probabilité de churn d'un panel de clients.
