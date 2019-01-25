@@ -1,12 +1,12 @@
 Ce repo contient les projets implémentés pendant le cours [Deep Learning de A à Z](https://www.udemy.com/le-deep-learning-de-a-a-z/?couponCode=WEBSITE) à l'aide de `tensorflow`, `keras`, et `PyTorch`.
 
 1. [Installation des modules](#installation-des-modules)
-2. [Partie 1 - ANN](partie-1-ann)
-3. [Partie 2 - CNN](partie-2-cnn)
-4. [Partie 3 - RNN](partie-3-rnn)
-5. [Partie 4 - SOM](partie-4-som)
-6. [Partie 5 - BM](partie-5-bm)
-7. [Partie 6 - AE](partie-6-ae)
+2. [Partie 1 - ANN](#partie-1-ann)
+3. [Partie 2 - CNN](#partie-2-cnn)
+4. [Partie 3 - RNN](#partie-3-rnn)
+5. [Partie 4 - SOM](#partie-4-som)
+6. [Partie 5 - BM](#partie-5-bm)
+7. [Partie 6 - AE](#partie-6-ae)
 
 ## Installation des modules
 
