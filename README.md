@@ -4,7 +4,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 
 Après avoir installé [Anaconda](https://anaconda.org/), suivre les instructions suivantes.
 
-**Important** : Après avoir installé les modules, il faut toujours se remettre dans l'environnement créé (qu'on a appelé `deeplearningaz`) à l'aide de la commande `activate deeplearningaz` avant de lancer Spyder. Sans quoi Spyder se lancera l'environnement par défaut.
+**Important** : Après avoir installé les modules, il faut toujours se remettre dans l'environnement créé (qu'on a appelé `deeplearningaz`) à l'aide de la commande `source activate deeplearningaz` avant de lancer Spyder. Sans quoi Spyder se lancera l'environnement par défaut.
 
 ### Sur MacOS
 
@@ -14,7 +14,7 @@ Après avoir installé [Anaconda](https://anaconda.org/), suivre les instruction
 
 ```
 conda create --name deeplearningaz python=3.6 anaconda
-activate deeplearningaz
+source activate deeplearningaz
 conda install theano
 conda install tensorflow
 conda install keras
