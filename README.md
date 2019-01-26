@@ -145,3 +145,21 @@ Puis installer la version GPU. Anaconda se charge automatiquement d'installer le
 conda install tensorflow-gpu
 conda install keras
 ```
+
+### Comment utiliser Dropout pour éviter le surentraînement ?
+
+J'ai ajouté un template de code qui teste deux réseaux de neurones sur le jeu de données utilisé dans la 1e partie.
+
+[Lien vers le script](https://gitlab.charlesbordet.com/charles/deeplearning/blob/master/Part%201%20-%20Artificial_Neural_Networks/overfit.py)
+
+Le premier réseau utilise beaucoup de neurones, ce qui cause le surentraînement qu'on remarque en comparant la précision sur les jeux d'entraînement et de test :
+
+* Précision (train) ~ 96%
+* Précision (test) ~ 81%
+
+Le deuxième réseau utilise des couches Dropout pour diminuer le surentraînement. On obtient les résultats suivants :
+
+* Précision (train) ~ 90%
+* Précision (test) ~ 85%
+
+
