@@ -7,8 +7,8 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 5. [Partie 4 - SOM](#partie-4-som)
 6. [Partie 5 - BM](#partie-5-bm)
 7. [Partie 6 - AE](#partie-6-ae)
-8. [F.A.Q.](#f-a-q)
-    1. 
+8. [F.A.Q.](#faq)
+    1. [Comment utiliser le GPU avec Tensorflow ?](#comment-utiliser-le-gpu-avec-tensorflow-)
 
 ## Installation des modules
 
