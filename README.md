@@ -9,6 +9,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 7. [Partie 6 - AE](#partie-6-ae)
 8. [F.A.Q.](#faq)
     1. [Comment utiliser le GPU avec Tensorflow ?](#comment-utiliser-le-gpu-avec-tensorflow-)
+    2. [Comment utiliser Dropout pour éviter le surentraînement ?](#comment-utiliser-dropout-pour-éviter-le-surentraînement-)
 
 ## Installation des modules
 
