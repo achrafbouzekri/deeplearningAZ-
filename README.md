@@ -7,6 +7,8 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 5. [Partie 4 - SOM](#partie-4-som)
 6. [Partie 5 - BM](#partie-5-bm)
 7. [Partie 6 - AE](#partie-6-ae)
+8. [F.A.Q.](#f-a-q)
+    1. 
 
 ## Installation des modules
 
@@ -125,3 +127,21 @@ Le sixième projet utilise les auto-encodeurs empilés, une technique avancée u
 * Salah Rifai, 2011, [Contractive Auto-Encoders: Explicit Invariance During Feature Extraction](http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Rifai_455.pdf)
 * Pascal Vincent, 2010, [Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion](http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf)
 * Geoffrey Hinton, 2006, [Reducing the Dimensionality of Data with Neural Networks](https://www.cs.toronto.edu/~hinton/science.pdf)
+
+## F.A.Q.
+
+### Comment utiliser le GPU avec Tensorflow ?
+
+Par défaut, l'installation de Tensorflow utilise le CPU. Si vous avez un GPU puissant et souhaitez l'utiliser pour accélérer les calculs, il faut d'abord désinstaller la version CPU de tensorflow :
+
+```
+source activate deeplearningaz
+conda remove tensorflow
+```
+
+Puis installer la version GPU. Anaconda se charge automatiquement d'installer les dépendances avec CUDA :
+
+```
+conda install tensorflow-gpu
+conda install keras
+```
