@@ -12,6 +12,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
     2. [Comment utiliser Dropout pour éviter le surentraînement ?](#comment-utiliser-dropout-pour-éviter-le-surentraînement-)
     3. [Comment mettre en place la K-fold cross validation ?](#comment-mettre-en-place-la-k-fold-cross-validation-)
     4. [Pourquoi changer d'échelle avant la séparation des jeux de données ?](#pourquoi-changer-déchelle-avant-la-séparation-des-jeux-de-données-)
+    5. [Le code des vidéos est différent des templates](#le-code-des-vidéos-est-différent-des-templates)
 
 ## Installation des modules
 
@@ -178,4 +179,14 @@ Dans le cours, l'opération de changement d'échelle est faite *après* la sépa
 Il s'agit d'une petite erreur. En pratique, il vaut mieux faire le changement d'échelle **avant** la séparation des jeux de données. Ainsi, on est sûr d'appliquer exactement la même transformation sur les jeux d'entraînement et de test.
 
 Néanmoins, si on découpe le jeu de données correctement, `train` et `test` doivent avoir la même distribution de données, et donc changer d'échelle *après* ne devrait qu'avoir un impact minime.
+
+### Le code des vidéos est différent des templates
+
+Les vidéos ont été faites sur des versions plus anciennes des modules que nous utilisons (`tensorflow`, `pytorch`, et `keras`).
+
+Les modules évoluent et parfois perdent la compatibilité avec un code qui a été écrit avec une version précédente.
+
+J'essaie au maximum de mettre à jour le code afin qu'il soit compatible avec les toutes dernières versions des modules. Toutefois, refaire les vidéos à chaque fois demanderait un travail titanesque pour assez peu d'intérêt considérant les changements minimes.
+
+Vous pourrez donc observer des différences entre le code sur les vidéos et le code dans les différents dossiers de ce repository.
 
