@@ -9,6 +9,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 7. [Partie 6 - AE](#partie-6-ae)
 8. [F.A.Q.](#faq)
     1. [Comment utiliser le GPU avec Tensorflow ?](#comment-utiliser-le-gpu-avec-tensorflow-)
+    2. [Could not find a version that satisfies tensorflow==1.9.0](#could-not-find-a-version-that-satisfies-tensorflow-1-9-0)
     2. [Comment utiliser Dropout pour éviter le surentraînement ?](#comment-utiliser-dropout-pour-éviter-le-surentraînement-)
     3. [Comment mettre en place la K-fold cross validation ?](#comment-mettre-en-place-la-k-fold-cross-validation-)
     4. [Pourquoi changer d'échelle avant la séparation des jeux de données ?](#pourquoi-changer-déchelle-avant-la-séparation-des-jeux-de-données-)
@@ -149,6 +150,14 @@ Puis installer la version GPU. Anaconda se charge automatiquement d'installer le
 conda install tensorflow-gpu
 conda install keras
 ```
+
+## Could not find a version that satisfies tensorflow==1.9.0
+
+Si vous obtenez ce message d'erreur, c'est vraisemblablement parce que vous utilisez Python 3.7.
+
+Tensorflow n'est pas compatible avec Python 3.7 à l'heure actuelle.
+
+C'est pourquoi les instructions d'installation prévoient de créer un environnement dans lequel on utilise Python 3.6. Assurez-vous de bien suivre les instructions à la lettre.
 
 ### Comment utiliser Dropout pour éviter le surentraînement ?
 
