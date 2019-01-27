@@ -10,6 +10,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 8. [F.A.Q.](#faq)
     1. [Comment utiliser le GPU avec Tensorflow ?](#comment-utiliser-le-gpu-avec-tensorflow-)
     2. [Comment utiliser Dropout pour éviter le surentraînement ?](#comment-utiliser-dropout-pour-éviter-le-surentraînement-)
+    3. [Comment mettre en place la K-fold cross validation ?](#comment-mettre-en-place-la-k-fold-cross-validation-)
 
 ## Installation des modules
 
@@ -19,7 +20,7 @@ Après avoir installé [Anaconda](https://anaconda.org/), suivre les instruction
 
 ```
 conda create --name deeplearningaz python=3.6 anaconda
-source activate deeplearningaz
+conda activate deeplearningaz
 conda install theano
 conda install tensorflow
 conda install keras
@@ -45,7 +46,7 @@ conda update --all
 
 ```
 conda create --name deeplearningaz python=3.6 anaconda
-source activate deeplearningaz
+conda activate deeplearningaz
 conda install theano
 conda install tensorflow
 conda install keras
@@ -136,7 +137,7 @@ Le sixième projet utilise les auto-encodeurs empilés, une technique avancée u
 Par défaut, l'installation de Tensorflow utilise le CPU. Si vous avez un GPU puissant et souhaitez l'utiliser pour accélérer les calculs, il faut d'abord désinstaller la version CPU de tensorflow :
 
 ```
-source activate deeplearningaz
+conda activate deeplearningaz
 conda remove tensorflow
 ```
 
@@ -162,5 +163,11 @@ Le deuxième réseau utilise des couches Dropout pour diminuer le surentraîneme
 
 * Précision (train) ~ 90%
 * Précision (test) ~ 85%
+
+### Comment mettre en place la K-fold cross validation ?
+
+La validation croisée à K couches (ou K-fold cross validation en anglais) est expliquée en détails dans la section "Évaluer, améliorer, et ajuster l'ANN".
+
+Le principe est répétable pour chaque type de réseau de neurones. On encapsule notre réseau de neurones dans une fonction qu'on va ensuite donner à la fonction `cross_val_score` qui va faire le travail pour nous.
 
 
