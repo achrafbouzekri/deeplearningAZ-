@@ -9,7 +9,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 7. [Partie 6 - AE](#partie-6-ae)
 8. [F.A.Q.](#faq)
     1. [Comment utiliser le GPU avec Tensorflow ?](#comment-utiliser-le-gpu-avec-tensorflow-)
-    2. [Could not find a version that satisfies tensorflow==1.9.0](#could-not-find-a-version-that-satisfies-tensorflow-1-9-0)
+    2. [Could not find a version that satisfies tensorflow==1.9.0](#could-not-find-a-version-that-satisfies-tensorflow190)
     2. [Comment utiliser Dropout pour éviter le surentraînement ?](#comment-utiliser-dropout-pour-éviter-le-surentraînement-)
     3. [Comment mettre en place la K-fold cross validation ?](#comment-mettre-en-place-la-k-fold-cross-validation-)
     4. [Pourquoi changer d'échelle avant la séparation des jeux de données ?](#pourquoi-changer-déchelle-avant-la-séparation-des-jeux-de-données-)
