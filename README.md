@@ -11,6 +11,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
     1. [Comment utiliser le GPU avec Tensorflow ?](#comment-utiliser-le-gpu-avec-tensorflow-)
     2. [Comment utiliser Dropout pour éviter le surentraînement ?](#comment-utiliser-dropout-pour-éviter-le-surentraînement-)
     3. [Comment mettre en place la K-fold cross validation ?](#comment-mettre-en-place-la-k-fold-cross-validation-)
+    4. [Pourquoi changer d'échelle avant la séparation des jeux de données ?](#pourquoi-changer-déchelle-avant-la-séparation-des-jeux-de-données-)
 
 ## Installation des modules
 
@@ -170,4 +171,11 @@ La validation croisée à K couches (ou K-fold cross validation en anglais) est 
 
 Le principe est répétable pour chaque type de réseau de neurones. On encapsule notre réseau de neurones dans une fonction qu'on va ensuite donner à la fonction `cross_val_score` qui va faire le travail pour nous.
 
+### Pourquoi changer d'échelle avant la séparation des jeux de données ?
+
+Dans le cours, l'opération de changement d'échelle est faite *après* la séparation des jeux de données.
+
+Il s'agit d'une petite erreur. En pratique, il vaut mieux faire le changement d'échelle **avant** la séparation des jeux de données. Ainsi, on est sûr d'appliquer exactement la même transformation sur les jeux d'entraînement et de test.
+
+Néanmoins, si on découpe le jeu de données correctement, `train` et `test` doivent avoir la même distribution de données, et donc changer d'échelle *après* ne devrait qu'avoir un impact minime.
 
