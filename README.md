@@ -14,6 +14,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
     3. [Comment mettre en place la K-fold cross validation ?](#comment-mettre-en-place-la-k-fold-cross-validation-)
     4. [Pourquoi changer d'échelle avant la séparation des jeux de données ?](#pourquoi-changer-déchelle-avant-la-séparation-des-jeux-de-données-)
     5. [Le code des vidéos est différent des templates](#le-code-des-vidéos-est-différent-des-templates)
+    6. [Est-il possible de récupérer les PPT ?](#est-il-possible-de-récupérer-les-ppt-)
 
 ## Installation des modules
 
@@ -198,4 +199,8 @@ Les modules évoluent et parfois perdent la compatibilité avec un code qui a é
 J'essaie au maximum de mettre à jour le code afin qu'il soit compatible avec les toutes dernières versions des modules. Toutefois, refaire les vidéos à chaque fois demanderait un travail titanesque pour assez peu d'intérêt considérant les changements minimes.
 
 Vous pourrez donc observer des différences entre le code sur les vidéos et le code dans les différents dossiers de ce repository.
+
+### Est-il possible de récupérer les PPT ?
+
+Les fichiers powerpoint ne sont pas disponibles.
 
