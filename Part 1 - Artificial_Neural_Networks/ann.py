@@ -16,6 +16,7 @@ preprocess = make_column_transformer(
                             'NumOfProducts', 'HasCrCard', 'IsActiveMember', 
                             'EstimatedSalary']))
 X = preprocess.fit_transform(X)
+X = np.delete(X, [0,3], 1)
 
 # Split in train/test
 y = y.values
