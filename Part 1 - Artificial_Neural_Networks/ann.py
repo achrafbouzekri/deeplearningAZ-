@@ -1,6 +1,7 @@
 
 # Import libraries
 import pandas as pd
+import numpy as np
 
 # Import data
 dataset = pd.read_csv('data/Churn_Modelling.csv')
