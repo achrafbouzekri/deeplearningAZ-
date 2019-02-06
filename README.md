@@ -8,7 +8,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 6. [Partie 5 - BM](#partie-5-bm)
 7. [Partie 6 - AE](#partie-6-ae)
 8. [F.A.Q.](#faq)
-    1. [conda n'est pas connu en tant que commande interne](#conda-n-est-pas-connu-en-tant-que-commande-interne)
+    1. [conda n'est pas connu en tant que commande interne](#conda-nest-pas-connu-en-tant-que-commande-interne)
     1. [Comment utiliser le GPU avec Tensorflow ?](#comment-utiliser-le-gpu-avec-tensorflow-)
     2. [Could not find a version that satisfies tensorflow==1.9.0](#could-not-find-a-version-that-satisfies-tensorflow190)
     2. [Comment utiliser Dropout pour éviter le surentraînement ?](#comment-utiliser-dropout-pour-éviter-le-surentraînement-)
