@@ -8,6 +8,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
 6. [Partie 5 - BM](#partie-5-bm)
 7. [Partie 6 - AE](#partie-6-ae)
 8. [F.A.Q.](#faq)
+    1. [conda n'est pas connu en tant que commande interne](#conda-n-est-pas-connu-en-tant-que-commande-interne)
     1. [Comment utiliser le GPU avec Tensorflow ?](#comment-utiliser-le-gpu-avec-tensorflow-)
     2. [Could not find a version that satisfies tensorflow==1.9.0](#could-not-find-a-version-that-satisfies-tensorflow190)
     2. [Comment utiliser Dropout pour éviter le surentraînement ?](#comment-utiliser-dropout-pour-éviter-le-surentraînement-)
@@ -135,6 +136,12 @@ Le sixième projet utilise les auto-encodeurs empilés, une technique avancée u
 * Geoffrey Hinton, 2006, [Reducing the Dimensionality of Data with Neural Networks](https://www.cs.toronto.edu/~hinton/science.pdf)
 
 ## F.A.Q.
+
+### conda n'est pas connu en tant que commande interne
+
+Si vous obtenez l'erreur `conda n'est pas connu en tant que commande interne`, c'est que Anaconda n'a pas été ajouté au PATH de votre système.
+
+Il s'agit d'une option à cocher lors de l'installation d'Anaconda. Il faut refaire l'installation comme spécifié dans la vidéo **Installation de Python**.
 
 ### Comment utiliser le GPU avec Tensorflow ?
 
