@@ -16,7 +16,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
     4. [Pourquoi changer d'échelle avant la séparation des jeux de données ?](#pourquoi-changer-déchelle-avant-la-séparation-des-jeux-de-données-)
     5. [Le code des vidéos est différent des templates](#le-code-des-vidéos-est-différent-des-templates)
     6. [Est-il possible de récupérer les PPT ?](#est-il-possible-de-récupérer-les-ppt-)
-    7. [Comment enregistrer et reprendre un modèle entraîné ?](#comment-enregistrer-et-reprendre-un-modèle-entrainé-)
+    7. [Comment enregistrer et reprendre un modèle entraîné ?](#comment-enregistrer-et-reprendre-un-modèle-entraîné-)
 
 ## Installation des modules
 
