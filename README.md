@@ -17,6 +17,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
     5. [Le code des vidéos est différent des templates](#le-code-des-vidéos-est-différent-des-templates)
     6. [Est-il possible de récupérer les PPT ?](#est-il-possible-de-récupérer-les-ppt-)
     7. [Comment enregistrer et reprendre un modèle entraîné ?](#comment-enregistrer-et-reprendre-un-modèle-entraîné-)
+    8. [Que faire si j'ai des erreurs avec Tensorflow ?](#que-faire-si-jai-des-erreurs-avec-tensorflow-)
 
 ## Installation des modules
 
@@ -227,4 +228,16 @@ keras.models.load_model('my_model.h5')
 ```
 
 On peut alors continuer l'entraînement avec de nouvelles données.
+
+### Que faire si j'ai des erreurs avec Tensorflow ?
+
+`Tensorflow` est une machinerie assez compliquée dont la compatibilité avec tous les systèmes n'est pas toujours évidente.
+
+Dans le cas où vous rencontrez des erreurs avec Tensorflow et que vous n'arrivez pas à vous en sortir, vous pouvez toujours utiliser `keras` avec `theano`.
+
+Pour ça, il faut changer le *backend* de keras.
+
+Dans le fichier de configuration situé à `$HOME/.keras/keras.json` (où $HOME est votre dossier utilisateur, ça dépend de votre système, et les fichiers peuvent être cachés), il faut changer "tensorflow" pour "theano".
+
+Plus d'infos dans la doc : [https://keras.io/backend/](https://keras.io/backend/)
 
