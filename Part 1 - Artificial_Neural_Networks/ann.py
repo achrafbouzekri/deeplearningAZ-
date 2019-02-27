@@ -78,6 +78,7 @@ Xnew = pd.DataFrame(data={
         'IsActiveMember': [1],
         'EstimatedSalary': [50000]})
 Xnew = preprocess.transform(Xnew)
+Xnew = np.delete(Xnew, [0,3], 1)
 new_prediction = classifier.predict(Xnew)
 new_prediction = (new_prediction > 0.5)
 
