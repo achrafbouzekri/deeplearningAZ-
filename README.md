@@ -18,6 +18,7 @@ Ce repo contient les projets implémentés pendant le cours [Deep Learning de A 
     6. [Est-il possible de récupérer les PPT ?](#est-il-possible-de-récupérer-les-ppt-)
     7. [Comment enregistrer et reprendre un modèle entraîné ?](#comment-enregistrer-et-reprendre-un-modèle-entraîné-)
     8. [Que faire si j'ai des erreurs avec Tensorflow ?](#que-faire-si-jai-des-erreurs-avec-tensorflow-)
+    9. [No module named keras](#no-module-named-keras)
 
 ## Installation des modules
 
@@ -240,4 +241,23 @@ Pour ça, il faut changer le *backend* de keras.
 Dans le fichier de configuration situé à `$HOME/.keras/keras.json` (où $HOME est votre dossier utilisateur, ça dépend de votre système, et les fichiers peuvent être cachés), il faut changer "tensorflow" pour "theano".
 
 Plus d'infos dans la doc : [https://keras.io/backend/](https://keras.io/backend/)
+
+### No Module named 'keras'
+
+Si vous rencontrez ce message d'erreur, faites les vérifications suivantes :
+
+Vérifiez que `keras` est bien installé en ouvrant la console puis en tapant :
+
+```
+conda activate deeplearningaz
+python
+import keras
+```
+
+Ensuite, vérifiez que Spyder est bien lancé avec votre environnement :
+
+```
+conda activate deeplearningaz
+spyder
+```
 
